@@ -140,6 +140,60 @@ Expected:
 * DROP rule with priority 400
 
 ---
+## 📸 Screenshots
+
+### 🔹 Controller Running
+![Controller](Screenshots/controller.png)
+
+---
+
+### 🔹 Network Topology
+![Topology](Screenshots/topology.png)
+
+---
+
+### 🔹 Connectivity Test (pingall)
+![Pingall](Screenshots/pingall.png)
+
+---
+
+## 🚦 ICMP (High Priority - 300)
+
+### Mininet Output
+![ICMP](Screenshots/icmp.png)
+
+### Controller Logs
+![ICMP Controller](Screenshots/icmp_controller.png)
+
+---
+
+## 🚦 TCP (Medium Priority - 200)
+
+### Mininet Output
+![TCP](Screenshots/tcp.png)
+
+### Controller Logs
+![TCP Controller](Screenshots/tcp_controller.png)
+
+---
+
+## 🚦 UDP (Low Priority - 100)
+
+### Mininet Output
+![UDP](Screenshots/udp.png)
+
+### Controller Logs
+![UDP Controller](Screenshots/udp_controller.png)
+
+---
+
+### 🔹 Flow Table (Normal Mode)
+![Flow](Screenshots/flow_normal.png)
+
+---
+
+### ❌ Failure Scenario (Host h3 Blocked)
+![Failure](Screenshots/failure.png)
 
 ## 📊 Results
 
@@ -167,3 +221,4 @@ The project successfully demonstrates QoS implementation using SDN.
 Traffic prioritization is achieved through OpenFlow rules, and failure scenarios are effectively simulated using drop rules, validating controller behavior.
 
 ---
+
